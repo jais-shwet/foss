@@ -44,7 +44,7 @@ if ($con)
       if($result)
       {
       	echo "Registration Successful";
-      	header("location:login.php");
+      	header("location:newlogin.php");
       }
       else
       	echo "Registration failed";
@@ -63,4 +63,4 @@ if ($con)
 
 <br><br><br>
 
-<a href="login.php">Login</a>
+<a href="newlogin.php">Login</a>
